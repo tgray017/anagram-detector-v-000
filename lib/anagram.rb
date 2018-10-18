@@ -10,6 +10,7 @@ class Anagram
     word_array.each do |word|
       letters_array = word.split("")
     end
+    anagrams
   end
   
 end
