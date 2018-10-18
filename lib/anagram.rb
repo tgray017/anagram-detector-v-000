@@ -9,6 +9,7 @@ class Anagram
     anagrams = []
     word_array.each do |word|
       letters_array = word.split("").sort
+      anagrams << 
     end
     anagrams
   end
